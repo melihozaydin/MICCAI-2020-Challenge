@@ -1,0 +1,17 @@
+Each user can upload one submission every 24 hours
+
+Please upload one .zip file containing two label maps of predicted structures in uncompressed MHA format for each case, one label map for Task 1 and another label map for Task 2, for a total of 30 MHA files in the .zip archive. 
+
+The .zip file should be named TEAMNAME_DDMMYYYY.zip, where TEAMNAME is the team name (selected by participants), and DDMMYYYY is the current date (in submitter's time zone). The team name will be used on the public leaderboard, and can contain of up to 16 Latin letters and/or digits  (no special characters or Unicode please).
+
+The two MHA files should be named  TEAMNAME_DDMMYYYY_CASE_pred1.mha and TEAMNAME_DDMMYYYY_CASE_pred2.mha for Task 1 and Task 2, respectively, and CASE is the three-digit case identifier. 
+
+The MHA files must have the same number of voxels and element spacing as the files in the training data. Labels for the predicted structures should match the labels in the training data. All structures must be present. It is expected that predicted structures do not overlap (within each Task); voxels not assigned to any structure must have a value of zero. Data type should be UCHAR (unsigned 8 bit per voxel), and the MHA files should not use compression.
+
+Scoring
+
+The accuracy of automated segmentation will be evaluated in relation to the manually delineated structures referred to as the ground truth. We will use the Dice similarity coefficient (DSC) and the surface Dice similarity coefficient (SDSC) at the tolerance of 2 mm. The total score (between 0 and 1) is the average of four scores, DSC and surface DSC for Tasks 1 and 2, weighted equally. 
+
+ 
+
+ 

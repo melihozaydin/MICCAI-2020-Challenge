@@ -1,0 +1,6 @@
+http://docs.eisen.ai/eisen/api.html#eisen.datasets.ABCDataset
+
+https://gist.github.com/faustomilletari/af430acfecf0841d71508455cdadcbbf
+
+https://towardsdatascience.com/deep-learning-with-magnetic-resonance-and-computed-tomography-images-e9f32273dcb5
+
