@@ -3,6 +3,13 @@ Melih Sami Özaydın MICCAI2020 Brain Tumor Semantic Segmentation Work
 
 My unsubmitted work for MICCAI2020 challenge.
 
+had some good pred results. :(
+
+
+![Alt text](3doutput.png)
+
+
+
 Project Organization
 ------------
 
